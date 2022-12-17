@@ -1,0 +1,7 @@
+Model,F1_score, AUC_score , Accuracy 
+Naive Bayes,0.8575,0.694,0.7689
+Logistic Regression,0.9217,0.699,0.8605
+Decision Tree,0.8031,0.713,0.7021
+Random Forest,0.9013,0.718,0.8315
+GBDT**(BEST),0.9243,0.745,0.8651
+Deep NN,0.9233,0.710,0.8629

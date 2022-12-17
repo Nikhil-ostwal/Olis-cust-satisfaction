@@ -10,7 +10,7 @@ col1, col2, col3, col4 = st.columns(4)
 st.markdown("Select the choice of insight from the left panel:")
 
 if st.sidebar.button('Dataset Quick Look'):
-    st.subheader('Dataset Quick Look:')
+    st.subheader('Dataset Quick Look')
     st.write(df.head())           
 if st.sidebar.button('Statistical Description'):
     st.subheader('Statistical Data Descripition')
